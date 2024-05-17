@@ -21,13 +21,9 @@ class Question {
  }
  
 
- const myQuestion = new Question(
-   "What is the capital of France?",
-   ["Paris", "London", "Berlin", "Rome"],
-   "Paris",
-   1
- );
- console.log("Before shuffling:", myQuestion.choices);
- myQuestion.shuffleChoices();
- console.log("After shuffling:", myQuestion.choices);
+const myQuestion = new Question("What is the capital of France?", ["Paris", "London", "Berlin", "Rome"], "Paris", 1);
+
+//  console.log("Before shuffling:", myQuestion.choices);
+//  myQuestion.shuffleChoices();
+//  console.log("After shuffling:", myQuestion.choices);
  
